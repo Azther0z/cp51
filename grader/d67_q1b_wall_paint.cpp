@@ -7,40 +7,42 @@ using namespace std;
 int main(){
 	int n,m;
 	cin >> n >> m;
-	vector<pair<int,int>> action(m);
+	vector<pair<int,int>> vec(m);
 	for(int i=0;i<m+m;i++){
 		int x,c,d;
 		cin >> x >> c >> d;
 		c--;
 		if(d==0){
-			action[c].first = x;
+			vec[c].first = x;
 		}
 		else if(d==1){
-			action[c].second = x;
+			vec[c].second = x;
 		}
 	}
-	set<pair<int,int>> st;
-	st.insert({0,n+1});
+	vector<int> pref(n+2,0);
+	set<int> point;
 	for(int i=0;i<m;i++){
-		auto it = st.lower_bound({action[i].first,0});
-		if(it->first<=action[i].second){
-			it--;
-			if(it->first<action[i].first&&action[i].second<it->second){
-				st.insert({action[i].first,action[i].second});
-				continue;
-			}	
+		auto it = point.lower_bound(vec[i].first);
+		if(it!=point.end()&&*it<=vec[i].second){
+			continue;
 		}
+		it = point.upper_bound(vec[i].second);
+		if(it!=point.begin()){
+			it--;
+			if(*it>=vec[i].first){
+				continue;
+			}
+		}
+		pref[vec[i].first]++;
+		pref[vec[i].second+1]--;
+		point.insert(vec[i].first);
+		point.insert(vec[i].second);
+		// cout << vec[i].first << ' ' << vec[i].second << endl;
 	}
 	int result = 0;
-	stack<pair<int,int>> stk;
-	for(auto p:st){
-		while(!stk.empty()&&p.first>stk.top().second){
-			// cout << 'p' << stk.top().first << ' ' << stk.top().second << endl;
-			stk.pop();
-		}
-		stk.push(p);
-		result = max(result,int(stk.size()));
-		cout << p.first << ' ' << p.second << ' ' << stk.size() << endl;
+	for(int i=1;i<=n;i++){
+		pref[i] += pref[i-1];
+		result = max(result,pref[i]);
 	}
-	cout << result-1;
+	cout << result;
 }
