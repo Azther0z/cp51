@@ -5,25 +5,25 @@
 #include <vector>
 #include <map>
 using namespace std;
-void insert_into_sv(map<int,int> &v, int pos, int value) {
- //your code here
+void insert_into_sv(map<int, int> &v, int pos, int value) {
+//your code here
 	auto it = v.lower_bound(pos);
-	vector<pair<int,int>> vec(it,v.end());
-	v.erase(it,v.end());
-	it = v.insert({pos,value}).first;
-	for(auto x:vec){
-		it = v.insert(it,{x.first+1,x.second});
+	vector<pair<int, int>> vec(it, v.end());
+	v.erase(it, v.end());
+	it = v.insert({pos, value}).first;
+	for (auto x : vec) {
+		it = v.insert(it, {x.first + 1, x.second});
 	}
 }
 int main() {
-	ios_base::sync_with_stdio(false);cin.tie(0);
+	ios_base::sync_with_stdio(false); cin.tie(0);
 	int n;
-	map<int,int> v;
+	map<int, int> v;
 	cin >> n;
-	for (int i = 0;i < n;i++) {
-		int a,b;
+	for (int i = 0; i < n; i++) {
+		int a, b;
 		cin >> a >> b;
-		insert_into_sv(v,a,b);
+		insert_into_sv(v, a, b);
 	}
 	cout << v.size() << "\n";
 	for (auto &x : v) {

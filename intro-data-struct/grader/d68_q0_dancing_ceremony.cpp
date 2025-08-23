@@ -3,24 +3,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int n;
     cin >> n;
     vector<int> vec(n);
-    for(int i=0;i<n;i++){
+    for (int i = 0; i < n; i++) {
         cin >> vec[i];
     }
-    for(int i=0;i<n;i++){
+    for (int i = 0; i < n; i++) {
         int b;
         cin >> b;
         vec[i] -= b;
     }
-    sort(vec.begin(),vec.end());
+    sort(vec.begin(), vec.end());
     long long result = 0;
-    for(int i=0;i<n;i++){
-        int target = (vec[i]>0?0:-vec[i]+1);
-        auto it = lower_bound(vec.begin()+i+1,vec.end(),target);
-        result += 1LL*(vec.end()-it);
+    for (int i = 0; i < n; i++) {
+        int target = (vec[i] > 0 ? 0 : -vec[i] + 1);
+        auto it = lower_bound(vec.begin() + i + 1, vec.end(), target);
+        result += 1LL * (vec.end() - it);
     }
     cout << result;
 }

@@ -3,28 +3,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-	int n,m;
+int main() {
+	int n, m;
 	cin >> n >> m;
-	vector<int> count(2000001,0);
+	vector<int> count(2000001, 0);
 	int arr[n];
-	for(int i=0;i<n;i++){
+	for (int i = 0; i < n; i++) {
 		cin >> arr[i];
 		count[arr[i]]++;
 	}
-	while(m--){
+	while (m--) {
 		int target;
 		cin >> target;
-		bool check=false;
-		for(int i=0;i<n;i++){
-			if(arr[i]+arr[i]==target&&count[arr[i]]<2){
+		bool check = false;
+		for (int i = 0; i < n; i++) {
+			if (arr[i] + arr[i] == target && count[arr[i]] < 2) {
 				continue;
 			}
-			if(target>arr[i]&&count[target-arr[i]]){
-				check=true;
+			if (target > arr[i] && count[target - arr[i]]) {
+				check = true;
 				break;
 			}
 		}
-		cout << (check?"YES\n":"NO\n");
+		cout << (check ? "YES\n" : "NO\n");
 	}
 }
