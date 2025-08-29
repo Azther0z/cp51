@@ -6,10 +6,10 @@
 template <typename T>
 bool CP::vector<T>::operator==(const vector<T> &other) const {
   //write your code only in this function
-  if (this->size() != other->size()) {
+  if (this->size() != other.size()) {
     return false;
   }
-  for (int i = 0; i < this->size; i++) {
+  for (int i = 0; i < this->size(); i++) {
     if ((*this)[i] != other[i]) {
       return false;
     }

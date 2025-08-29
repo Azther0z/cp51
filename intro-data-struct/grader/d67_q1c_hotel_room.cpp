@@ -30,26 +30,24 @@ int main() {
 			auto it = ms.lower_bound(p);
 			if (it == ms.end()) {
 				it--;
-			}
-			if (*it >= p) {
-				int floor = *vec[*it].rbegin();
-				// cout << floor << ' ' << p << endl;
-				result.push_back({floor, p});
-				int tmp = *it;
-				ms.erase(it);
-				vec[tmp].erase(*vec[tmp].rbegin());
-				tmp -= p;
-				p = 0;
-				ms.insert(tmp);
-				vec[tmp].insert(floor);
+				int amount = *it;
+				ms.erase(ms.find(amount));
+				int floor = *vec[amount].rbegin();
+				result.push_back({floor, amount});
+				vec[amount].erase(floor);
+				p -= amount;
 			} else {
-				int floor = *vec[*it].rbegin();
-				// cout << floor << ' ' << *it << ' ';
-				result.push_back({floor, *it});
-				int tmp = *it;
-				ms.erase(it);
-				p -= tmp;
-				vec[tmp].erase(*vec[tmp].rbegin());
+				int amount = *it;
+				ms.erase(ms.find(amount));
+				int floor = *vec[amount].rbegin();
+				result.push_back({floor, p});
+				vec[amount].erase(floor);
+				amount -= p;
+				p = 0;
+				if (amount > 0) {
+					ms.insert(amount);
+					vec[amount].insert(floor);
+				}
 			}
 		}
 		sort(result.begin(), result.end());
