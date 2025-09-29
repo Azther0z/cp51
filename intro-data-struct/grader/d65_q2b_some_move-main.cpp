@@ -29,10 +29,12 @@ int main() {
     cout << v[i] << " ";
   }
   cout << endl;
+  v.debug();
   v.insert(pos, to_be_insert); // Inserting values
   cout << "--- AFTER INSERT ---" << endl;
   for (int i = 0; i < v.size(); ++i) {
     cout << v[i] << " ";
   }
   cout << endl;
+  v.debug();
 }
