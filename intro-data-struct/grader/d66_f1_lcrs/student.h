@@ -1,0 +1,11 @@
+// Left Child Right Sibling
+
+// You may include library here
+
+int depth(node *n) {
+  // Write Code Here
+  if (n == NULL) {
+    return -1;
+  }
+  return std::max(1 + depth(n->left_child), depth(n->right_sibling));
+}
