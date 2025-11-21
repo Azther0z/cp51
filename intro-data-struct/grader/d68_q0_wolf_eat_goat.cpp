@@ -1,3 +1,5 @@
+// Wolf Eat Goat
+
 #include <bits/stdc++.h>
 using namespace std;
 
