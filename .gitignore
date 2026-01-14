@@ -7,5 +7,14 @@
 *.sublime-workspace
 *.cpp:tests
 
+*.vcd
+*.vvp
+*.out
+__pycache__
+sim_build
+results.xml
+venv
+.DS_Store
+
 test.cpp
 test.c
