@@ -11,3 +11,5 @@
 [2110327 | Algorithm Design](2110327-algorithm_design)
 
 [2110363 | Hardware Synthesis Laboratory](2110363-hw_syn_lab)
+
+[2110313 | Operating Systems and System Programs](2110313-os_sys_prog)
