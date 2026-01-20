@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/azther0z/Desktop/cp51/2110363-hw_syn_lab/vivado_test/project_1.srcs/constrs_1/imports/digilent-xdc/Basys-3-Master.xdc rfile:../../../project_1.srcs/constrs_1/imports/digilent-xdc/Basys-3-Master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {led}]
