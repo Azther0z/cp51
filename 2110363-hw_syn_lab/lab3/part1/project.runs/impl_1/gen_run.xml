@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1769435221">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="part_1_problem_4_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="part_1_problem_4_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="part_1_problem_4.vdi"/>
+  <File Type="BG-DRC" Name="part_1_problem_4.drc"/>
+  <File Type="BG-BGN" Name="part_1_problem_4.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="part_1_problem_4.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="part_1_problem_4.ltx"/>
+  <File Type="PL-LTX-FILE" Name="part_1_problem_4_pld.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="part_1_problem_4_boot.ltx"/>
+  <File Type="LTX-FILE" Name="part_1_problem_4.ltx"/>
+  <File Type="PL-BIF-FILE" Name="part_1_problem_4_pld.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="part_1_problem_4_boot.bif"/>
+  <File Type="BIF-FILE" Name="part_1_problem_4.bif"/>
+  <File Type="MMI-FILE" Name="part_1_problem_4.mmi"/>
+  <File Type="RBD_FILE" Name="part_1_problem_4.rbd"/>
+  <File Type="NPI_FILE" Name="part_1_problem_4.npi"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="part_1_problem_4_pld_unmask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="part_1_problem_4_pld_unmask_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="part_1_problem_4_pld_mask.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="part_1_problem_4_pld_markers.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="part_1_problem_4_pld_clear.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="part_1_problem_4_pld.rcdo"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="part_1_problem_4_pld_unmask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="part_1_problem_4_pld_shutdown.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="part_1_problem_4_pld_mask.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="part_1_problem_4_pld_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="part_1_problem_4_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="part_1_problem_4_boot_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="part_1_problem_4_boot.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="part_1_problem_4_markers.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="part_1_problem_4_markers.rnpi"/>
+  <File Type="RCDO-FILE" Name="part_1_problem_4.rcdo"/>
+  <File Type="RNPI_FILE" Name="part_1_problem_4.rnpi"/>
+  <File Type="CFI_FILE" Name="part_1_problem_4.cfi"/>
+  <File Type="RCFI_FILE" Name="part_1_problem_4.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="part_1_problem_4_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="part_1_problem_4_boot.pdi"/>
+  <File Type="PDI-FILE" Name="part_1_problem_4.pdi"/>
+  <File Type="BITSTR-MMI" Name="part_1_problem_4.mmi"/>
+  <File Type="BITSTR-BMM" Name="part_1_problem_4_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="part_1_problem_4.nky"/>
+  <File Type="BITSTR-RBT" Name="part_1_problem_4.rbt"/>
+  <File Type="BITSTR-MSK" Name="part_1_problem_4.msk"/>
+  <File Type="BG-BIN" Name="part_1_problem_4.bin"/>
+  <File Type="BG-BIT" Name="part_1_problem_4.bit"/>
+  <File Type="NOC_SOLUTION_FILE" Name="part_1_problem_4.ncr"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="part_1_problem_4.nts"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="part_1_problem_4_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="part_1_problem_4_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="part_1_problem_4_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="part_1_problem_4_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="part_1_problem_4_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="part_1_problem_4_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="part_1_problem_4_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="part_1_problem_4_postroute_physopt.dcp"/>
+  <File Type="ROUTE-RQS-PB" Name="part_1_problem_4_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="part_1_problem_4_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="part_1_problem_4_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="part_1_problem_4_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="part_1_problem_4_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="part_1_problem_4_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="part_1_problem_4_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="part_1_problem_4_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="part_1_problem_4_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="part_1_problem_4_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="part_1_problem_4_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="part_1_problem_4_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="part_1_problem_4_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="part_1_problem_4_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="part_1_problem_4_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="part_1_problem_4_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="part_1_problem_4_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="part_1_problem_4_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="part_1_problem_4_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="part_1_problem_4_drc_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="part_1_problem_4_utilization_routed.pb"/>
+  <File Type="ROUTE-UTIL" Name="part_1_problem_4_utilization_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="part_1_problem_4_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="part_1_problem_4_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="part_1_problem_4_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="part_1_problem_4_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="part_1_problem_4_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="part_1_problem_4_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="part_1_problem_4_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="part_1_problem_4_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="part_1_problem_4_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="part_1_problem_4_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="part_1_problem_4_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="part_1_problem_4_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="part_1_problem_4_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="part_1_problem_4_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="part_1_problem_4_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="part_1_problem_4_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="part_1_problem_4_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="part_1_problem_4_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="part_1_problem_4_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="part_1_problem_4_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="part_1_problem_4_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="part_1_problem_4_rqa_opted.pb"/>
+  <File Type="OPT-TIMING" Name="part_1_problem_4_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="part_1_problem_4.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="part_1_problem_4_methodology_drc_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="part_1_problem_4_utilization_opted.pb"/>
+  <File Type="OPT-UTIL" Name="part_1_problem_4_utilization_opted.rpt"/>
+  <File Type="OPT-DRC" Name="part_1_problem_4_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="part_1_problem_4_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="part_1_problem_4_timing_summary_init.rpt"/>
+  <File Type="REPORTS-TCL" Name="part_1_problem_4_reports.tcl"/>
+  <File Type="PA-TCL" Name="part_1_problem_4.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/part1/problem-1/part_1_problem_1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/problem-1/part_1_problem_1.v"/>
+        <Attr Name="ImportTime" Val="1769433432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/part1/problem-2/part_1_problem_2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/problem-2/part_1_problem_2.v"/>
+        <Attr Name="ImportTime" Val="1769433432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/part1/problem-3/part_1_problem_3.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/problem-3/part_1_problem_3.v"/>
+        <Attr Name="ImportTime" Val="1769433432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/part1/problem-4/part_1_problem_4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/problem-4/part_1_problem_4.v"/>
+        <Attr Name="ImportTime" Val="1769433432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="part_1_problem_4"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/problem-3/part_1_problem_3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/problem-3/part_1_problem_3.xdc"/>
+        <Attr Name="ImportTime" Val="1769433432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/part_1_problem_1.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
