@@ -13,3 +13,5 @@
 [2110363 | Hardware Synthesis Laboratory](2110363-hw_syn_lab)
 
 [2110313 | Operating Systems and System Programs](2110313-os_sys_prog)
+
+[2110352 | Computer System Architecture](2110352-comp_sys_arch)
