@@ -10,3 +10,6 @@ int max2(int a, int b) {
 		max = b;
 	return max;
 }
+int testMax(int a, int b) {
+	return max1(a, b);
+}
