@@ -45,7 +45,6 @@ module skilltest1 (
 
     Decoder decoder (
         .value(value),
-        .clock(Clk),
         .bcd0 (BCD0),
         .bcd1 (BCD1),
         .bcd2 (BCD2),
