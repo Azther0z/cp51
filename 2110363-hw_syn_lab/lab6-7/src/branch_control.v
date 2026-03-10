@@ -6,5 +6,24 @@ module branch_control (
 );
     // TODO: Implement the branch control
 
+    // branch_type param
+    localparam BE = 0;
+    localparam BNE = 1;
+    localparam BLT = 2;
+    localparam BGE = 3;
+    localparam BLTU = 4;
+    localparam BGEU = 5;
+
+    always @(*) begin
+        case (ops)
+            BE:      branch <= (a == b);
+            BNE:     branch <= (a != b);
+            BLT:     branch <= ($signed(a) < $signed(b));
+            BGE:     branch <= ($signed(a) >= $signed(b));
+            BLTU:    branch <= ($unsigned(a) < $unsigned(b));
+            BGEU:    branch <= ($unsigned(a) >= $unsigned(b));
+            default: branch <= 0;
+        endcase
+    end
 
 endmodule
