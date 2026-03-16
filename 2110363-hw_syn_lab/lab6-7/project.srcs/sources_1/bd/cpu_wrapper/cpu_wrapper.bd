@@ -1,0 +1,201 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF78290C861C5E3B0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../project.gen/sources_1/bd/cpu_wrapper",
+      "name": "cpu_wrapper",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "single_cycle_cpu_lab7_0": "",
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "led_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "sw_0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "uart_rx_0": {
+        "direction": "I"
+      },
+      "clk_in1_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "cpu_wrapper_clk_in1_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "single_cycle_cpu_lab7_0": {
+        "vlnv": "xilinx.com:module_ref:single_cycle_cpu_lab7:1.0",
+        "ip_revision": "1",
+        "xci_name": "cpu_wrapper_single_cycle_cpu_lab7_0_0",
+        "xci_path": "ip/cpu_wrapper_single_cycle_cpu_lab7_0_0/cpu_wrapper_single_cycle_cpu_lab7_0_0.xci",
+        "inst_hier_path": "single_cycle_cpu_lab7_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "single_cycle_cpu_lab7",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "10000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "sw": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "led": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "uart_rx": {
+            "direction": "I"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "17",
+        "xci_name": "cpu_wrapper_clk_wiz_0_0",
+        "xci_path": "ip/cpu_wrapper_clk_wiz_0_0/cpu_wrapper_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "290.478"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "133.882"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "10"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.625"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "78.125"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "2"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_in1_0_1": {
+        "ports": [
+          "clk_in1_0",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "single_cycle_cpu_lab7_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst_0",
+          "single_cycle_cpu_lab7_0/rst"
+        ]
+      },
+      "single_cycle_cpu_lab7_0_led": {
+        "ports": [
+          "single_cycle_cpu_lab7_0/led",
+          "led_0"
+        ]
+      },
+      "sw_0_1": {
+        "ports": [
+          "sw_0",
+          "single_cycle_cpu_lab7_0/sw"
+        ]
+      },
+      "uart_rx_0_1": {
+        "ports": [
+          "uart_rx_0",
+          "single_cycle_cpu_lab7_0/uart_rx"
+        ]
+      }
+    }
+  }
+}
