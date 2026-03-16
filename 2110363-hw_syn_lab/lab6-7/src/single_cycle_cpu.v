@@ -1,9 +1,9 @@
 module single_cycle_cpu (
-    input  wire       clk,  // Clock signal
-    input  wire       rst,  // Active high synchronous reset signal
-    // input  wire [9:0] testcase_id,  // Test case ID for testing purposes
-    input  wire [7:0] sw,   // (Lab 7) Memory-mapped I/O switches
-    output wire [7:0] led   // (Lab 7) Memory-mapped I/O LEDs
+    input  wire       clk,          // Clock signal
+    input  wire       rst,          // Active high synchronous reset signal
+    input  wire [9:0] testcase_id,  // Test case ID for testing purposes
+    input  wire [7:0] sw,           // (Lab 7) Memory-mapped I/O switches
+    output wire [7:0] led           // (Lab 7) Memory-mapped I/O LEDs
 );
 
     wire [31:0] pc;
