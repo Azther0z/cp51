@@ -1,0 +1,440 @@
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 4 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1669560
+MISS        : 330440
+Hit Rate    : 83.48%
+Miss Rate    : 16.52%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 8 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1652147
+MISS        : 347853
+Hit Rate    : 82.61%
+Miss Rate    : 17.39%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 16 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1677463
+MISS        : 322537
+Hit Rate    : 83.87%
+Miss Rate    : 16.13%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 32 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1687566
+MISS        : 312434
+Hit Rate    : 84.38%
+Miss Rate    : 15.62%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 4 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1775198
+MISS        : 224802
+Hit Rate    : 88.76%
+Miss Rate    : 11.24%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 8 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1766215
+MISS        : 233785
+Hit Rate    : 88.31%
+Miss Rate    : 11.69%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 16 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1784151
+MISS        : 215849
+Hit Rate    : 89.21%
+Miss Rate    : 10.79%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 32 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1793431
+MISS        : 206569
+Hit Rate    : 89.67%
+Miss Rate    : 10.33%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 16 KB
+Block Size  : 4 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1849934
+MISS        : 150066
+Hit Rate    : 92.50%
+Miss Rate    : 7.50%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 16 KB
+Block Size  : 8 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1846558
+MISS        : 153442
+Hit Rate    : 92.33%
+Miss Rate    : 7.67%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 16 KB
+Block Size  : 16 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1860161
+MISS        : 139839
+Hit Rate    : 93.01%
+Miss Rate    : 6.99%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 16 KB
+Block Size  : 32 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1867498
+MISS        : 132502
+Hit Rate    : 93.37%
+Miss Rate    : 6.63%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 4 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1895088
+MISS        : 104912
+Hit Rate    : 94.75%
+Miss Rate    : 5.25%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 8 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1895885
+MISS        : 104115
+Hit Rate    : 94.79%
+Miss Rate    : 5.21%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 16 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1906747
+MISS        : 93253
+Hit Rate    : 95.34%
+Miss Rate    : 4.66%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 32 Bytes
+Associativity: 1-way
+Policy      : RR
+HIT         : 1911848
+MISS        : 88152
+Hit Rate    : 95.59%
+Miss Rate    : 4.41%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1215540
+MISS        : 284460
+Hit Rate    : 81.04%
+Miss Rate    : 18.96%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1408835
+MISS        : 91165
+Hit Rate    : 93.92%
+Miss Rate    : 6.08%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1443854
+MISS        : 56146
+Hit Rate    : 96.26%
+Miss Rate    : 3.74%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1478700
+MISS        : 21300
+Hit Rate    : 98.58%
+Miss Rate    : 1.42%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 512 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1024 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : LRU
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1251616
+MISS        : 248384
+Hit Rate    : 83.44%
+Miss Rate    : 16.56%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1431605
+MISS        : 68395
+Hit Rate    : 95.44%
+Miss Rate    : 4.56%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1453948
+MISS        : 46052
+Hit Rate    : 96.93%
+Miss Rate    : 3.07%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1480995
+MISS        : 19005
+Hit Rate    : 98.73%
+Miss Rate    : 1.27%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 512 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1024 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : LRU
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1195171
+MISS        : 304829
+Hit Rate    : 79.68%
+Miss Rate    : 20.32%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1400878
+MISS        : 99122
+Hit Rate    : 93.39%
+Miss Rate    : 6.61%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1439431
+MISS        : 60569
+Hit Rate    : 95.96%
+Miss Rate    : 4.04%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1477158
+MISS        : 22842
+Hit Rate    : 98.48%
+Miss Rate    : 1.52%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 512 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1024 KB
+Block Size  : 4 Bytes
+Associativity: 2-way
+Policy      : RR
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1219547
+MISS        : 280453
+Hit Rate    : 81.30%
+Miss Rate    : 18.70%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 4 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1422217
+MISS        : 77783
+Hit Rate    : 94.81%
+Miss Rate    : 5.19%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 8 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1449123
+MISS        : 50877
+Hit Rate    : 96.61%
+Miss Rate    : 3.39%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 32 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1478960
+MISS        : 21040
+Hit Rate    : 98.60%
+Miss Rate    : 1.40%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 512 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+
+--- Program Output ---
+=== Simulation Results ===
+Cache Size  : 1024 KB
+Block Size  : 4 Bytes
+Associativity: 4-way
+Policy      : RR
+HIT         : 1489384
+MISS        : 10616
+Hit Rate    : 99.29%
+Miss Rate    : 0.71%
+

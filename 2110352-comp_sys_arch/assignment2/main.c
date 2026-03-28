@@ -41,6 +41,7 @@ int main(int argc, char* argv[]) {
     printf("HIT         : %ld\n", HIT);
     printf("MISS        : %ld\n", MISS);
     printf("Hit Rate    : %.2f%%\n", 100.0 * HIT / (HIT + MISS));
+    printf("Miss Rate    : %.2f%%\n", 100.0 * MISS / (HIT + MISS));
 
     return 0;
 }
