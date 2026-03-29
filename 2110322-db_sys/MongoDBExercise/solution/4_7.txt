@@ -1,0 +1,32 @@
+db.order.aggregate(
+  [
+    { $unwind: { path: '$order_lines' } },
+    {
+      $group: {
+        _id: '$order_lines.product_id',
+        ordered_quantity: {
+          $sum: '$order_lines.ordered_quantity'
+        }
+      }
+    },
+    { $sort: { ordered_quantity: -1 } },
+    { $limit: 1 },
+    {
+      $lookup: {
+        from: 'product',
+        localField: '_id',
+        foreignField: 'product_id',
+        as: 'info'
+      }
+    },
+    { $unwind: { path: '$info' } },
+    {
+      $project: {
+        _id: 0,
+        product_id: '$_id',
+        product_name: '$info.product_name',
+        ordered_quantity: '$ordered_quantity'
+      }
+    }
+  ]
+)

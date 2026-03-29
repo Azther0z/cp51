@@ -1,0 +1,1 @@
+อาจ embed product ใน order เพิ่มเติม เพราะในข้อ 4.13 การหา total_payment ของ customer 1 คน ใช้ขั้นตอนที่ซับซ้อนมาก หาก product ถูก embed แล้ว จะทำให้ไม่ต้องใช้คำสั่ง lookup และ unwind เพื่อหา product_price และสามารถเรียก order.product.product_price ได้เลย
