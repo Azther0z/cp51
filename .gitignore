@@ -18,3 +18,5 @@ venv
 
 test.cpp
 test.c
+
+!Makefile
