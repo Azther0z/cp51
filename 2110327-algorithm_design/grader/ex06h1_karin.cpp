@@ -37,8 +37,7 @@ class DistanceMatrix {
 		if (x & 1) {
 			DistanceMatrix b = matrixExponentiation((x + 1) / 2);
 			return memo[x] = a.matrixMatrixProduct(b);
-		}
-		return memo[x] = a.matrixMatrixProduct(a);
+		}		return memo[x] = a.matrixMatrixProduct(a);
 	}
 	void display() {
 		for (int i = 0; i < matrix.size(); i++) {
