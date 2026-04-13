@@ -49,7 +49,7 @@ uint16_t translate_address(uint16_t logical_address) {
     }
 
     // Assignment: construct physical address from frame number and offset
-    uint16_t physical_address = (outer_page_table[outer_page_number][page_number].frame << 8) | (logical_address & 15);
+    uint16_t physical_address = (outer_page_table[outer_page_number][page_number].frame << 8) | (logical_address & 0xFF);
 
     printf("Translate logical address 0x%X (outer page number 0x%X, page number 0x%X, offset 0x%X) to physical address 0x%X\n",
            logical_address, outer_page_number, page_number, logical_address & 0xFF, physical_address);
