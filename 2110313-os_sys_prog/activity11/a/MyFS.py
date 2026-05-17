@@ -10,9 +10,6 @@ import os, stat, errno
 import fuse
 from fuse import Fuse
 
-if not hasattr(fuse, '__version__'):
-    raise RuntimeError("your fuse-py doesn't know of fuse.__version__, probably it's too old.")
-
 fuse.fuse_python_api = (0, 2)
 
 containers={ \

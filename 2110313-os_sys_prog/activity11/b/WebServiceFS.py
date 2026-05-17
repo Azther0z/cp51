@@ -17,14 +17,7 @@ import stat
 import fuse
 from fuse import Fuse
 
-try:
-    import requests
-except ImportError:  # fallback for systems without requests installed
-    requests = None
-    from urllib import parse, request
-
-if not hasattr(fuse, '__version__'):
-    raise RuntimeError("your fuse-py doesn't know of fuse.__version__, probably it's too old.")
+import requests
 
 fuse.fuse_python_api = (0, 2)
 
@@ -49,14 +42,9 @@ class MyStat(fuse.Stat):
 
 def get_status():
     """GET participation status and return it as bytes."""
-    if requests is not None:
-        r = requests.get(STATUS_URL)
-        r.raise_for_status()
-        return r.content
-
-    with request.urlopen(STATUS_URL) as r:
-        return r.read()
-
+    r = requests.get(STATUS_URL)
+    r.raise_for_status()
+    return r.content
 
 def post_checkin(buf):
     """POST one check-in record.  Input format: studentid:name:email."""
@@ -75,16 +63,8 @@ def post_checkin(buf):
         'name': raw[1],
         'email': raw[2],
     }
-
-    if requests is not None:
-        r = requests.post(CHECKIN_URL, data=params)
-        r.raise_for_status()
-    else:
-        data = parse.urlencode(params).encode('utf-8')
-        req = request.Request(CHECKIN_URL, data=data, method='POST')
-        with request.urlopen(req) as r:
-            r.read()
-
+    r = requests.post(CHECKIN_URL, data=params)
+    r.raise_for_status()
 
 class WebServiceFS(Fuse):
     def getattr(self, path):
