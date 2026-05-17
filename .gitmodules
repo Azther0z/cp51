@@ -1,0 +1,3 @@
+[submodule "2110363-hw_syn_lab/basys3-ov7670-vga"]
+	path = 2110363-hw_syn_lab/basys3-ov7670-vga
+	url = https://github.com/Azther0z/basys3-ov7670-vga.git
