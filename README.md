@@ -10,6 +10,7 @@
 
 [2110327 | Algorithm Design](2110327-algorithm_design)
 - Grader and quiz solution
+- Homework
 
 [2110363 | Hardware Synthesis Laboratory](2110363-hw_syn_lab)
 - 8 labs
