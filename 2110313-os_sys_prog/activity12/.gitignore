@@ -1,0 +1,31 @@
+# Linux kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Generated dependency / command files
+.*.cmd
+
+# Kernel build outputs
+*.a
+*.s
+*.i
+*.lst
+*.elf
+*.bin
+*.map
+
+# Editor / OS files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+.DS_Store
