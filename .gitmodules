@@ -1,3 +1,6 @@
 [submodule "2110363-hw_syn_lab/basys3-ov7670-vga"]
 	path = 2110363-hw_syn_lab/basys3-ov7670-vga
 	url = https://github.com/Azther0z/basys3-ov7670-vga.git
+[submodule "2110215-prog_meth/project-saint_and_poom"]
+	path = 2110215-prog_meth/project-saint_and_poom
+	url = https://github.com/Azther0z/roll-the-dice.git
