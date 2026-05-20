@@ -1,0 +1,12 @@
+x = input()
+x = x.split(",")
+a = int(x[0])
+b = int("0"+x[1])
+c = 10**(len(x[1]))
+d = int(x[2])
+e = 10**(len(x[1])+len(x[2]))-(10**len(x[1]))
+import math
+gcd = math.gcd(a*e+b*int(e//c)+d,e)
+top = ((b*int(e//c)+d)//gcd)
+bot = (e//gcd)
+print((a*bot+top),"/",(bot))
