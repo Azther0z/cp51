@@ -1,5 +1,18 @@
 # My CP51 course archives
 
+## Freshman
+
+[2110101 | Computer Programming](2110101-comp_prog)
+- Grader solution
+- 8 workshops
+
+[2110215 | Programming Methodology](2110215-prog_meth)
+- 6 labs
+- Midterm and final mock exam
+- Final project
+
+## Sophomore
+
 [2110263 | Digital Computer Logic Laboratory](2110263-dig_logic_lab)
 - 10 labs
 - Some midterm and final preparation
