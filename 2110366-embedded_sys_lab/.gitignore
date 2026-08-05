@@ -1,0 +1,37 @@
+# STM32CubeIDE workspace metadata
+.metadata/
+
+# STM32CubeIDE project settings and generated build directories
+.settings/
+Debug/
+Release/
+build/
+
+# CubeMX-generated vendor libraries (regenerate from the .ioc file)
+Drivers/
+
+# CubeMX-generated project scaffolding
+**/Core/*
+!**/Core/Src/
+**/Core/Src/*
+!**/Core/Src/main.c
+**/.project
+**/.cproject
+**/.mxproject
+**/*.launch
+**/*.ld
+
+# Generated build artifacts
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.su
+*.cyclo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
