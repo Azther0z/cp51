@@ -1,0 +1,16 @@
+CompileFlags:
+  Compiler: /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/arm-none-eabi-gcc
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m4
+    - -mthumb
+    - -mfpu=fpv4-sp-d16
+    - -mfloat-abi=hard
+    - -DDEBUG
+    - -DUSE_HAL_DRIVER
+    - -DSTM32F411xE
+    - -I/home/azther0z/Desktop/cp51/2110366-embedded_sys_lab/lab2-2/Core/Inc
+    - -I/home/azther0z/Desktop/cp51/2110366-embedded_sys_lab/lab2-2/Drivers/STM32F4xx_HAL_Driver/Inc
+    - -I/home/azther0z/Desktop/cp51/2110366-embedded_sys_lab/lab2-2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - -I/home/azther0z/Desktop/cp51/2110366-embedded_sys_lab/lab2-2/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - -I/home/azther0z/Desktop/cp51/2110366-embedded_sys_lab/lab2-2/Drivers/CMSIS/Include
