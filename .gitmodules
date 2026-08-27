@@ -19,3 +19,6 @@
 [submodule "2110503-sw_dev_prac_1/assignment4"]
 	path = 2110503-sw_dev_prac_1/assignment4
 	url = https://github.com/2110503-69CP/a4-Azther0z.git
+[submodule "2110507-sw_dev_prac_2/assignment4"]
+	path = 2110507-sw_dev_prac_2/assignment4
+	url = https://github.com/Azther0z/a04-swdevprac2-Azther0z
