@@ -20,3 +20,4 @@ test.cpp
 test.c
 
 !Makefile
+!Dockerfile
