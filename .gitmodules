@@ -43,3 +43,6 @@
 [submodule "2110507-sw_dev_prac_2/assignment7"]
 	path = 2110507-sw_dev_prac_2/assignment7
 	url = https://github.com/SWDevPrac2-69-1/swdevprac2-69-1-a07-swdevprac2-69-1-azther0z.git
+[submodule "2110507-sw_dev_prac_2/assignment8"]
+	path = 2110507-sw_dev_prac_2/assignment8
+	url = https://github.com/SWDevPrac2-69-1/swdevprac2-69-1-a08-swdevprac2-69-1-azther0z.git
