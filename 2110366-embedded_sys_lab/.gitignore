@@ -9,6 +9,7 @@ build/
 
 # CubeMX-generated vendor libraries (regenerate from the .ioc file)
 Drivers/
+Middlewares/
 
 # CubeMX-generated project scaffolding
 **/Core/*
@@ -21,6 +22,11 @@ Drivers/
 **/*.launch
 **/*.ld
 
+# Generated OpenOCD launch configurations and ST-LINK logs
+* Debug.cfg
+* Release.cfg
+*_gdbserver_log.txt
+
 # Generated build artifacts
 *.o
 *.d
@@ -31,6 +37,7 @@ Drivers/
 *.list
 *.su
 *.cyclo
+*.size.stdout
 
 # OS-generated files
 .DS_Store
