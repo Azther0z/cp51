@@ -1,0 +1,9 @@
+{"timestamp": "2026-10-11T16:04:47.543711+00:00", "kind": "published", "event_id": "3453ec1d-5668-40c1-92cf-d753a3fe0c52", "topic": "lab.ex5.keyed1", "partition": 1, "offset": 0}
+{"timestamp": "2026-10-11T16:04:47.543926+00:00", "kind": "published", "event_id": "8e307575-2fcc-4e34-8f39-4d8e2e386528", "topic": "lab.ex5.keyed1", "partition": 1, "offset": 1}
+{"timestamp": "2026-10-11T16:04:47.544067+00:00", "kind": "published", "event_id": "eddb080f-82b0-4b9b-818e-e0b807ae10f7", "topic": "lab.ex5.keyed1", "partition": 1, "offset": 2}
+{"timestamp": "2026-10-11T16:04:47.545011+00:00", "kind": "published", "event_id": "8ea5fcf8-9c64-45cf-aeab-a8c2bf621ca6", "topic": "lab.ex5.keyed1", "partition": 2, "offset": 0}
+{"timestamp": "2026-10-11T16:04:47.545222+00:00", "kind": "published", "event_id": "a5f49d29-30e3-4722-8a98-4c58b97ae944", "topic": "lab.ex5.keyed1", "partition": 2, "offset": 1}
+{"timestamp": "2026-10-11T16:04:47.545312+00:00", "kind": "published", "event_id": "ba7821a1-1ee3-451c-a05a-69e7a2617999", "topic": "lab.ex5.keyed1", "partition": 2, "offset": 2}
+{"timestamp": "2026-10-11T16:04:47.546164+00:00", "kind": "published", "event_id": "a35a71c4-357b-441b-8e5c-ab03960ce070", "topic": "lab.ex5.keyed1", "partition": 0, "offset": 0}
+{"timestamp": "2026-10-11T16:04:47.546315+00:00", "kind": "published", "event_id": "8de96f7f-2bfe-4c1c-99b7-f9589927f8f0", "topic": "lab.ex5.keyed1", "partition": 0, "offset": 1}
+{"timestamp": "2026-10-11T16:04:47.546384+00:00", "kind": "published", "event_id": "f781802f-39cf-4ec4-a83d-14d897407c1e", "topic": "lab.ex5.keyed1", "partition": 0, "offset": 2}
